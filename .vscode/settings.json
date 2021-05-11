@@ -1,0 +1,11 @@
+{
+  "python.venvPath": "/home/ubuntu/.local/share/virtualenvs/project-OQjbevUn/bin/python",
+  "python.pythonPath": "/home/ubuntu/.local/share/virtualenvs/project-OQjbevUn/bin/python",
+  "python.testing.pytestArgs": [
+    "project"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "pytest.command": "pipenv run python -m pytest",
+}
