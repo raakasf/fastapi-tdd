@@ -6,7 +6,7 @@
     {
       "label": "Watch & run pytest",
       "type": "shell",
-      "command": "while inotifywait -r -e modify,create,delete .; do docker-compose exec web pipenv run python -m pytest --cov=\".\" --cov-report html; done",
+      "command": "while inotifywait -r -e modify,create,delete --exclude \".*(\\.git|\\.idea)\" .; do docker-compose exec web pipenv run python -m pytest --cov=\".\" --cov-report html; done",
       "problemMatcher": []
     }
   ]
