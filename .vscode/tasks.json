@@ -7,6 +7,7 @@
       "label": "Watch & run pytest",
       "type": "shell",
       "command": "cd project && while inotifywait -r -e modify,create,delete .; do pipenv run python -m pytest; done",
+      "problemMatcher": []
     }
   ]
 }
